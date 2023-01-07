@@ -104,6 +104,9 @@ header{
     font-weight: 500px;
     color: #737272;
 }
+
+/* mindset section start */
+
 .watch{
     background-image: url(../images/watch.png),
     linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
@@ -114,7 +117,7 @@ header{
     min-height: 300px;
     position: relative;
     width: 72%;
-    margin: auto;
+    margin: 125px 230px;
     border-radius: 8px;
 }
 .watch-content{
@@ -129,3 +132,67 @@ header{
     width: 449px;
     padding-bottom: 24px;
 }
+
+/* footer section start */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+    background: #151414;
+    color: #FFFFFF;
+    min-height: 30vh;
+    padding: 100px 0;
+}
+.footer-content-left{
+    width: 485px;
+}
+.footer-content-left h2{
+    font-weight: 700px;
+    font-size: 45px;
+    padding-bottom: 16px;
+}
+.footer-content-left p{
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+.footer-content-left ul{
+    list-style: none;
+}
+.footer-content-left ul li{
+    padding-bottom: 16px;
+}
+.social-icon{
+    padding-top: 8px;
+}
+.social-icon i{
+    font-size: 30px;
+    margin-left: 17px;
+}
+.footer-content-right{
+    width: 600px;
+   
+}
+.footer-content-right h3{
+    font-weight: 600;
+  
+    font-size: 25px;
+  
+    padding-bottom: 31px;
+  }
+  .footer-content-right input{
+    padding: 21px 130px 21px 15px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+  }
+  .footer-content-right input::placeholder{
+    color: #F3F3F3;
+    text-align: left;
+  }
+  .footer-content-right .primary-btn{
+    background: #005fac;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
