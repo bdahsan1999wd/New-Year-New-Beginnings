@@ -104,3 +104,28 @@ header{
     font-weight: 500px;
     color: #737272;
 }
+.watch{
+    background-image: url(../images/watch.png),
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-position: center,center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 300px;
+    position: relative;
+    width: 72%;
+    margin: auto;
+    border-radius: 8px;
+}
+.watch-content{
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+.watch-content h3{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 449px;
+    padding-bottom: 24px;
+}
