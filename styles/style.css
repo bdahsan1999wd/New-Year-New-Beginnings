@@ -14,6 +14,7 @@ header{
 .banner-content{
     text-align: right;
     position: absolute;
+    justify-content: flex-start;
     top: 26%;
     right: 20%;
     width: 525px;
@@ -37,4 +38,44 @@ header{
     color: #FFFFFF;
     border: none;
     border-radius: 7px;
+}
+
+/* my failure section start */
+
+.person-image{
+    margin-left: 206px;
+    margin-right: 90px;
+    margin-top: 150px;
+}
+.my-failures{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.person-content{
+    width: 430px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.person-content h2{
+    font-size: 40px;
+    font-weight: 700px;
+    width: 288px;
+    line-height: 50px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+.person-content p{
+    line-height: 28px;
+    padding-bottom: 18px;
+    color: #444343;
+}
+.person-content ul li i{
+    color: #444343;
+}
+.person-content ul li{
+    line-height: 30px;
+}
+.person-content ul{
+    list-style: none;
 }
